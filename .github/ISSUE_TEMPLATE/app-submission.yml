@@ -1,7 +1,7 @@
 ---
 name: App Submission
-about: For submitting a new application to AppCenter
-title: ''
+description: For submitting a new application to AppCenter
+title: '[App Submission]: '
 labels: app submission
 assignees: ''
 body:
