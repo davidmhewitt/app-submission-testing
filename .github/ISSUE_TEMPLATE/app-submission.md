@@ -4,7 +4,23 @@ about: For submitting a new application to AppCenter
 title: ''
 labels: app submission
 assignees: ''
-
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Enter the URL for your application's repository
+      placeholder: ex. https://github.com/danrabbit/harvey
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Enter the version of your application to be released (this should exist as a tag in your repository)
+      placeholder: ex. 1.0.1
+    validations:
+      required: true
 ---
 
 
