@@ -3,7 +3,7 @@ name: App Submission
 description: For submitting a new application to AppCenter
 title: '[App Submission]: '
 labels: app submission
-assignees: ''
+assignees: []
 body:
   - type: input
     id: url
